@@ -17,7 +17,7 @@ pipeline {
 
         stage ('Tag docker image') {
             steps {
-                sh 'docker tag project3:latest aishwaryalaxmi0599/project3:latest
+                sh 'docker tag project3:latest aishwaryalaxmi0599/project3:latest'
             }
         }
 
